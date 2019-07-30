@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 /* index style */
 .index{
 
@@ -30,7 +31,6 @@
 }
 
 
-
 100%{
   left: 0; top: 0;
 }
@@ -48,7 +48,7 @@
 }
 /* End of mtoto header */
 
-/* Form 1 styling linear gradient background*/
+/* Form styling linear gradient background for all forms*/
 #form1, #form2, #form3, #form4 {
 	width: 100wh;
 	height:100vh;
@@ -104,6 +104,14 @@ h1, h6 {
 	top: 45%;
 	right: 0;
 	left: 0;
+}
+
+/*This will change the font of the text in the form*/
+form.questionnaire1 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: white;
 }
 
 /* This is a notion for adding new things to test the branch */
@@ -169,3 +177,4 @@ h1, h6 {
   left: 0;
   top: 0;
 }
+
