@@ -7,7 +7,7 @@
 
 }
 .mtoto-header{
-  margin-top:15%;
+  margin-top:10%;
   font-size:120px;
   color:#e84393;
   font-family: 'Gochi Hand', cursive;
@@ -27,16 +27,12 @@
     font-size: 200px;
     
 }
-
-
-
 100%{
   left: 0; top: 0;
 }
 
 
 }
-
 .dot {
   animation-name: dropfromabove;
   animation: dropfromabove 4s;
@@ -45,4 +41,17 @@
   left: 0;
   top: 0;
 } 
+.tagline {
+  margin-top: -2%;
+ font-size: 0.15em;
+ text-transform: capitalize;
+ color:#0abde3;
 
+}
+.tag {
+  color:#e84393;
+}
+/* index_button */
+.btn {
+  border-radius: 50%;
+}
