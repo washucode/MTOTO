@@ -106,11 +106,6 @@ h1, h6 {
 	left: 0;
 }
 
-/* This will align the text in the center for the forms*/
-.center-form {
-    margin: auto;
-}
-
 /*This will change the font of the text in the form*/
 form.questionnaire1 p {
     font-family: 'Quicksand', sans-serif;
@@ -119,39 +114,24 @@ form.questionnaire1 p {
     color: white;
 }
 
-/*This will change the font  of the label*/
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #42392a;
-    font-family: 'Quicksand', sans-serif;
-    margin-right: 2%;
-}
-
-.next {
-  background-color: #4CAF50;
-  color: black;
-}
-
 /* This is a notion for adding new things to test the branch */
+
 .center-form h2{
   padding-bottom: 5%;
   padding-top: 2%;
 }
 
-.questionnaire1, .questionaire2, .questionaire3{
+.questionnaire1, .questionaire2, .questionaire3, .questionaire4{
   line-height:36px;
   /* margin-bottom:5%; */
 }
-.questionnaire1, .questionaire2, .questionaire3 label{
+.questionnaire1, .questionaire2, .questionaire3, .questionaire4 label{
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
   color:white;
 }
-.questionnaire1,.questionaire2, .questionaire3 p{
+.questionnaire1,.questionaire2, .questionaire3, .questionaire4 p{
   font-size: 16px;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
