@@ -9,7 +9,7 @@
 
 }
 .mtoto-header{
-  margin-top:15%;
+  margin-top:10%;
   font-size:120px;
   color:#e84393;
   font-family: 'Gochi Hand', cursive;
@@ -28,7 +28,10 @@
     left: 0px; top:-300px;
     font-size: 200px;
 
-}
+    
+  }
+
+
 
 
 100%{
@@ -37,7 +40,6 @@
 
 
 }
-
 .dot {
   animation-name: dropfromabove;
   animation: dropfromabove 4s;
@@ -45,6 +47,13 @@
   position: relative;
   left: 0;
   top: 0;
+
+} 
+.tagline {
+  margin-top: -2%;
+ font-size: 0.15em;
+ text-transform: capitalize;
+ color:#0abde3;
 }
 /* End of mtoto header */
 
@@ -176,5 +185,33 @@ form.questionnaire1 p {
   position: relative;
   left: 0;
   top: 0;
-}
 
+
+}
+.tag {
+  color:#e84393;
+}
+/* index_button */
+.index_button {
+  width: 70px;
+  height: 70px;
+  color:#e84393;
+  margin-top: 10%;
+  font-weight: 200;
+  font-size: 80px;
+  margin-left: 80%;
+  text-align: center;
+  
+}
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+.index_button {
+  animation-name: bounceAlpha;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
