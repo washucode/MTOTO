@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 /* index style */
 .index{
 
@@ -109,4 +110,9 @@ h1, h6 {
 /* This will align the text in the center for the forms*/
 .form-check-inline {
     text-align: center;
+}
+
+/*This will change the font of the text in the form*/
+form.questionnaire1 p {
+    font-family: 'Quicksand', sans-serif;
 }
