@@ -48,7 +48,7 @@
 }
 
 
-/* Form 1 styling linear gradient background*/
+/* Form styling linear gradient background for all forms*/
 #form1, #form2, #form3, #form4 {
 	width: 100wh;
 	height: 90vh;
@@ -104,4 +104,9 @@ h1, h6 {
 	top: 45%;
 	right: 0;
 	left: 0;
+}
+
+/* This will align the text in the center for the forms*/
+.form-check-inline {
+    text-align: center;
 }
