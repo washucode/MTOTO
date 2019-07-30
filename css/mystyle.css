@@ -144,17 +144,17 @@ label {
 .form-column2{
   /* padding-top:20%; */
 }
-.questionnaire1{
+.questionnaire1, .questionaire2{
   line-height:36px;
   /* margin-bottom:5%; */
 }
-.questionnaire1 label{
+.questionnaire1, .questionaire2 label{
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
   color:white;
 }
-.questionnaire1 p{
+.questionnaire1,.questionaire2 p{
   font-size: 16px;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
