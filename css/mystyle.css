@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 /* index style */
@@ -28,7 +26,7 @@
   0% {
     left: 0px; top:-300px;
     font-size: 200px;
-    
+
 }
 
 
@@ -43,12 +41,11 @@
 .dot {
   animation-name: dropfromabove;
   animation: dropfromabove 4s;
-  animation-direction: alternate; 
+  animation-direction: alternate;
   position: relative;
   left: 0;
   top: 0;
-} 
->>>>>>> 680e1c5d34df667cc459584c36950f124ad4c7e4
+}
 
 
 /* Form 1 styling linear gradient background*/
