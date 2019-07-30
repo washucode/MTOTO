@@ -1,5 +1,50 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+/* index style */
+.index{
 
+  background-size: cover;
+
+}
+.mtoto-header{
+  margin-top:15%;
+  font-size:120px;
+  color:#e84393;
+  font-family: 'Gochi Hand', cursive;
+}
+.t1,.o1{
+  color:#0abde3;
+  font-family: 'Gochi Hand', cursive;
+}
+.t2,.o2{
+  color:#e84393;
+  font-family: 'Gochi Hand', cursive;
+}
+
+   @keyframes dropfromabove {
+  0% {
+    left: 0px; top:-300px;
+    font-size: 200px;
+    
+}
+
+
+
+100%{
+  left: 0; top: 0;
+}
+
+
+}
+
+.dot {
+  animation-name: dropfromabove;
+  animation: dropfromabove 4s;
+  animation-direction: alternate; 
+  position: relative;
+  left: 0;
+  top: 0;
+} 
 
 
 /* Form 1 styling linear gradient background*/
@@ -59,52 +104,3 @@ h1, h6 {
 	right: 0;
 	left: 0;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
-/* index style */
-.index{
-
-  background-size: cover;
-
-}
-.mtoto-header{
-  margin-top:15%;
-  font-size:120px;
-  color:#e84393;
-  font-family: 'Gochi Hand', cursive;
-}
-.t1,.o1{
-  color:#0abde3;
-  font-family: 'Gochi Hand', cursive;
-}
-.t2,.o2{
-  color:#e84393;
-  font-family: 'Gochi Hand', cursive;
-}
-
-   @keyframes dropfromabove {
-  0% {
-    left: 0px; top:-300px;
-    font-size: 200px;
-    
-}
-
-
-
-100%{
-  left: 0; top: 0;
-}
-
-
-}
-
-.dot {
-  animation-name: dropfromabove;
-  animation: dropfromabove 4s;
-  animation-direction: alternate; 
-  position: relative;
-  left: 0;
-  top: 0;
-} 
-
