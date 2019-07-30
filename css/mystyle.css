@@ -124,8 +124,8 @@ h1, h6 {
 .questionnaire1 label{
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
-  /* letter-spacing: 2px; */
   font-weight: lighter;
+  color:white;
 }
 .questionnaire1 p{
   font-size: 16px;
@@ -145,4 +145,31 @@ h1, h6 {
 #next-btn a{
   font-size:70px;
   color:#fff;
+  border-bottom:4px solid;
+}
+
+   @keyframes nextpage{
+  0% {
+    left:0px; top:0px;
+
+}
+
+
+
+100%{
+  left: 50px; top: 0;
+}
+
+
+}
+
+#next-btn {
+  animation-name:nextpage;
+  font-weight:lighter;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration:2s;
+  position: relative;
+  left: 0;
+  top: 0;
 }
