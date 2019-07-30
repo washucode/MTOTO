@@ -26,3 +26,29 @@
 	    100%{background-position:0% 50%}
 	}
 }
+
+/* Form 2 styling linear gradient background*/
+#form2 {
+	background: linear-gradient(173deg, #ff0000, #ffee00);
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 11s ease infinite;
+	-moz-animation: AnimationName 11s ease infinite;
+	animation: AnimationName 11s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:51% 0%}
+	    50%{background-position:50% 100%}
+	    100%{background-position:51% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:51% 0%}
+	    50%{background-position:50% 100%}
+	    100%{background-position:51% 0%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:51% 0%}
+	    50%{background-position:50% 100%}
+	    100%{background-position:51% 0%}
+	}
+}
