@@ -52,7 +52,7 @@
 /* Form styling linear gradient background for all forms*/
 #form1, #form2, #form3, #form4 {
 	width: 100wh;
-	height: 90vh;
+	height: auto;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -108,11 +108,31 @@ h1, h6 {
 }
 
 /* This will align the text in the center for the forms*/
-.form-check-inline {
-    text-align: center;
+.center-form {
+    margin: auto;
+    width: 40%;
 }
 
 /*This will change the font of the text in the form*/
 form.questionnaire1 p {
     font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: white;
+}
+
+/*This will change the font  of the label*/
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #42392a;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 2%;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: black;
 }
