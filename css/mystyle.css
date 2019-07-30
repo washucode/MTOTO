@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
@@ -53,10 +53,14 @@
 #form1, #form2, #form3, #form4 {
 	width: 100wh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: auto;
 =======
 	height:auto;
 >>>>>>> 198f94b568489f3d55a13817508a5ec5874350ea
+=======
+	height:100vh;
+>>>>>>> origin/mercy
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -143,12 +147,41 @@ label {
 }
 
 /* This is a notion for adding new things to test the branch */
-.center-form{
-  margin: auto;
-  width: 50%;
-}
 .center-form h2{
   padding-bottom: 5%;
   padding-top: 2%;
+}
+
+.form-column2{
+  /* padding-top:20%; */
+}
+.questionnaire1{
+  line-height:36px;
+  /* margin-bottom:5%; */
+}
+.questionnaire1 label{
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  /* letter-spacing: 2px; */
+  font-weight: lighter;
+}
+.questionnaire1 p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  /* font-stretch:extra-expanded;
+  word-spacing:6px;
+  letter-spacing:2px; */
+}
+.questionaire-header{
+  text-align: center;
+  font-family: 'Gochi Hand', cursive;
+  word-spacing:30px;
+  margin-top: 5%;
+
+}
+#next-btn a{
+  font-size:70px;
+  color:#fff;
 }
 
