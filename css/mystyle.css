@@ -52,6 +52,26 @@
   color:#e84393;
 }
 /* index_button */
-.btn {
-  border-radius: 50%;
+.index_button {
+  width: 70px;
+  height: 70px;
+  color:#e84393;
+  margin-top: 10%;
+  font-weight: 200;
+  font-size: 80px;
+  margin-left: 80%;
+  text-align: center;
+  
+}
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+.index_button {
+  animation-name: bounceAlpha;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
 }
