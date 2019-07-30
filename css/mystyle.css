@@ -47,12 +47,16 @@
   left: 0;
   top: 0;
 }
-
+/* End of mtoto header */
 
 /* Form styling linear gradient background for all forms*/
 #form1, #form2, #form3, #form4 {
 	width: 100wh;
+<<<<<<< HEAD
 	height: auto;
+=======
+	height:auto;
+>>>>>>> 198f94b568489f3d55a13817508a5ec5874350ea
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -107,6 +111,7 @@ h1, h6 {
 	left: 0;
 }
 
+<<<<<<< HEAD
 /* This will align the text in the center for the forms*/
 .center-form {
     margin: auto;
@@ -136,3 +141,14 @@ label {
   background-color: #4CAF50;
   color: black;
 }
+=======
+/* This is a notion for adding new things to test the branch */
+.center-form{
+  margin: auto;
+  width: 40%;
+}
+.center-form h2{
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+>>>>>>> 198f94b568489f3d55a13817508a5ec5874350ea
