@@ -10,20 +10,20 @@
     <title></title>
   </head>
   <body class="index">
-      <div class="text-uppercase text-center mtoto-header">
-        <span class = "dot">.</span>
-        <span class = "M">M</span>
-        <span class="t1">t</span>
-        <span class="o1">o</span>
-        <span class="t2">t</span>
-        <span class="o2">o</span>
-        <h1 class = "tagline">improving quality of <span class="tag">human experience.</span> </h1>
+    <!--This is th logo slide up-->
+    <div class="text-uppercase text-center mtoto-header">
+      <span class = "dot">.</span>
+      <span class = "M">M</span>
+      <span class="t1">t</span>
+      <span class="o1">o</span>
+      <span class="t2">t</span>
+      <span class="o2">o</span>
+      <h1 class = "tagline">improving quality of <span class="tag">human experience.</span> </h1>
     </div>
-    <!--Modal Class-->
+    <!--This is the end of the slide up-->
+    <!--Beginning of the modal Class-->
     <div class="container">
       <!-- Extra large modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Extra large modal</button>
-
       <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
@@ -34,7 +34,7 @@
                   <li><a href="#form3" data-toggle="tab">Form3</a></li>
                   <li><a href="#form4" data-toggle="tab">Form 4</a></li>
                 </ul>
-                <div class="tab-content">
+                <div class="tab-content" id="modalclassform1">
                   <!--This is  the beginning of form one -->
                   <div class="tab-pane active" id="form1">
                     <h2>EMOTIONAL INTELLIGENCE</h2>
@@ -173,12 +173,14 @@
                           </div>
                         </form>
                         <div class="col-md-12 text-right" id="next-btn">
-                          <a href="form2.html">&#187;</a>
+                          <a href="form2">&#187;</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!-- The end of form one-->
+                </div>
+                <div class="tab-content" id="modalclassform2">
                   <!--This is  the beginning of form two -->
                   <div class="tab-pane" id="form2">
                     <h2>EMOTIONAL INTELLIGENCE</h2>
@@ -317,12 +319,14 @@
                           </div>
                         </form>
                         <div class="col-md-12 text-right" id="next-btn">
-                          <a href="form3.html">&#187;</a>
+                          <a href="#form3">&#187;</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!--The end of form two-->
+                </div>
+                <div class="tab-content" id="modalclassform3">
                   <!--This is  the beginning of form three -->
                   <div class="tab-pane active" id="form3">
                     <h2>EMOTIONAL INTELLIGENCE</h2>
@@ -461,12 +465,14 @@
                           </div>
                         </form>
                         <div class="col-md-12 text-right" id="next-btn">
-                          <a href="form4.html">&#187;</a>
+                          <a href="#form4">&#187;</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!--The end of form three-->
+                </div>
+                <div class="tab-content" id="modalclassform4">
                   <!--This is  the beginning of form four -->
                   <div class="tab-pane active" id="form4">
                     <h2>EMOTIONAL INTELLIGENCE</h2>
@@ -618,11 +624,13 @@
         </div>
       </div>
     </div>
-    <!-- This will launch the modal form -->
+    <!--End of modal class-->
+    <!-- This button will launch the modal form -->
     <div class="index_button">
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">
         <p href= "form1.html">&#8211;&#187;</p>
       </button>
     </div>
+    <!--This is the end of the modal pop up button-->
   </body>
 </html>
