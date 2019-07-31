@@ -2,23 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 /* index style */
 .index{
-  background-image: url(../images/pen1.jpg);
+  background-image: url(../images/pencil.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 
 }
 .mtoto-header{
-  padding-top:10%;
-  font-size:120px;
+  padding-top:5%;
+  font-size:150px;
   color:#e84393;
   font-family: 'Gochi Hand', cursive;
   background-color: black;
-  opacity: 0.8;
-  height: 100vh;
+  opacity: 0.9;
+  height:100vh;
+  width:100%;
 }
 .t1,.o1{
-  color:#0abde3;
+  color:white;
   font-family: 'Gochi Hand', cursive;
 }
 .t2,.o2{
@@ -50,19 +57,73 @@
   position: relative;
   left: 0;
   top: 0;
+  color: white;
 
 }
+
 .tagline {
-  margin-top: -2%;
- font-size: 0.15em;
+ font-size:20px;
  text-transform: capitalize;
- color:#0abde3;
+ color:white;
+ font-family: 'Gochi Hand', cursive;
+ word-spacing:5px;
+ margin-top:6%;
+}
+
+.infotabs{
+  padding-top: 2%;
+}
+
+.content1 h3,.content2 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.content1{
+  background-color: white;
+  height: 100%;
+  border-radius: 3%;
+  opacity:0.9;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+.content1:hover{
+  zoom:1.2;
+}
+
+.content2:hover{
+  zoom:1.2
+}
+.content2{
+    background-color: white;
+    height: 100%;
+    border-radius: 3%;
+    opacity: 0.9;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+      color: black;
+}
+
+.mtoto{
+  font-family: 'Gochi Hand', cursive;
 }
 /* End of mtoto header */
 
 /* Form styling linear gradient background for all forms*/
+.formbody{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+/* .questionnaire1{
+  padding-top:12%
+} */
 #form1, #form2, #form3, #form4 {
-	width: 100wh;
+	width: 100vw;
 	height:100vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -133,6 +194,7 @@ form.questionnaire1 p {
   padding-top: 2%;
 }
 
+
 .questionnaire1, .questionaire2, .questionaire3, .questionaire4{
   line-height:36px;
   /* margin-bottom:5%; */
@@ -155,7 +217,7 @@ form.questionnaire1 p {
   text-align: center;
   font-family: 'Gochi Hand', cursive;
   word-spacing:30px;
-  margin-top: 5%;
+  margin-top:3%;
 
 }
 #next-btn a{
@@ -173,7 +235,7 @@ form.questionnaire1 p {
 
 
 100%{
-  left: 50px; top: 0;
+  left:0px; top: -20px;
 }
 
 
@@ -188,6 +250,7 @@ form.questionnaire1 p {
   position: relative;
   left: 0;
   top: 0;
+  /* padding-top:12%; */
 
 
 }
@@ -195,15 +258,16 @@ form.questionnaire1 p {
   color:#e84393;
 }
 /* index_button */
-.index_button {
+.index_button a {
   width: 70px;
   height: 70px;
   color:#e84393;
-  margin-top: 10%;
-  font-weight: 200;
-  font-size: 80px;
+  margin-top:5%;
+
+  font-size:140px;
   margin-left: 80%;
   text-align: center;
+
 
 }
 @keyframes bounceAlpha {
