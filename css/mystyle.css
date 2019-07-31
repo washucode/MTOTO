@@ -143,6 +143,7 @@ form.questionnaire1 p {
 .questionnaire1,.questionaire2, .questionaire3, .questionaire4 p{
   font-size: 16px;
   font-weight: bold;
+      background-color: gray;
   font-family: 'Quicksand', sans-serif;
   /* font-stretch:extra-expanded;
   word-spacing:6px;
@@ -211,4 +212,19 @@ form.questionnaire1 p {
   animation-duration: 2s;
   animation-iteration-count:infinite;
   animation-timing-function:linear;
+}
+
+/*Css*/
+#modalclass {
+  background-color: gray;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 0.25rem;
+}
+
+#form2modal {
+  display: none;
 }
