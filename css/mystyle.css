@@ -179,8 +179,6 @@ form.questionnaire1 p {
 #next-btn {
   animation-name:nextpage;
   font-weight:lighter;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
   animation-duration:2s;
   position: relative;
   left: 0;
