@@ -4,15 +4,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 /* index style */
 .index{
-
+  background-image: url(../images/pen1.jpg);
   background-size: cover;
 
 }
 .mtoto-header{
-  margin-top:10%;
+  padding-top:10%;
   font-size:120px;
   color:#e84393;
   font-family: 'Gochi Hand', cursive;
+  background-color: black;
+  opacity: 0.8;
+  height: 100vh;
 }
 .t1,.o1{
   color:#0abde3;
@@ -28,7 +31,7 @@
     left: 0px; top:-300px;
     font-size: 200px;
 
-    
+
   }
 
 
@@ -48,7 +51,7 @@
   left: 0;
   top: 0;
 
-} 
+}
 .tagline {
   margin-top: -2%;
  font-size: 0.15em;
@@ -201,7 +204,7 @@ form.questionnaire1 p {
   font-size: 80px;
   margin-left: 80%;
   text-align: center;
-  
+
 }
 @keyframes bounceAlpha {
   0% {opacity: 1; transform: translateX(0px) scale(1);}
