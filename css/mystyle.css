@@ -182,9 +182,6 @@ form.questionnaire1 p {
 #next-btn {
   animation-name:nextpage;
   font-weight:lighter;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-duration:2s;
   position: relative;
   left: 0;
   top: 0;
@@ -217,4 +214,9 @@ form.questionnaire1 p {
   animation-duration: 2s;
   animation-iteration-count:infinite;
   animation-timing-function:linear;
+}
+
+/*Css*/
+#modalclassform2, #modalclassform3, #modalclassform4 {
+  display: none;
 }
