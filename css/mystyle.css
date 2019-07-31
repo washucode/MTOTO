@@ -9,11 +9,7 @@
 
 }
 .mtoto-header{
-<<<<<<< HEAD
-  padding-top:15%;
-=======
-  margin-top:10%;
->>>>>>> 7003da7f80836bdfc9a1b5666abcd11bea69fbad
+  padding-top:10%;
   font-size:120px;
   color:#e84393;
   font-family: 'Gochi Hand', cursive;
@@ -35,7 +31,7 @@
     left: 0px; top:-300px;
     font-size: 200px;
 
-    
+
   }
 
 
@@ -55,7 +51,7 @@
   left: 0;
   top: 0;
 
-} 
+}
 .tagline {
   margin-top: -2%;
  font-size: 0.15em;
@@ -208,7 +204,7 @@ form.questionnaire1 p {
   font-size: 80px;
   margin-left: 80%;
   text-align: center;
-  
+
 }
 @keyframes bounceAlpha {
   0% {opacity: 1; transform: translateX(0px) scale(1);}
