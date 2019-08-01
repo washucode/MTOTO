@@ -332,12 +332,47 @@ h4#resultpage {
   text-align: justify;
 }
 
+#adaptabilityresult1,#adaptabilityresult2,#affectiveresult1,#affectiveresult2,#resultxp1,#resultxp2{
+  margin-top: 0;
+  display:none;
+  margin-bottom: 1rem;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#resultpercp1,#resultpercp2,#resultreg1,#resultreg2,#resultimpuls1,#resultimpuls2{
+  margin-top: 0;
+  display:none;
+  margin-bottom: 1rem;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#resultpeer1,#resultpeer2,#resultself1,#resultself2,#resultmotivation1,#resultmotivation2{
+  margin-top: 0;
+  display:none;
+  margin-bottom: 1rem;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 12px;
+  text-align: justify;
+}
+
 #div#resultheader {
   font-size: 60px;
 }
 
 h2#resultheading {
   margin: 1%;
+}
+
+#resultadaptability:hover,#resultemotionalxp:hover{
+  zoom :1.3;
+
+}
+#results{
+  font-size: 24px;
 }
 .overlay-result h4{
   font-family: 'Gochi Hand', cursive;
