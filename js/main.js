@@ -1,10 +1,10 @@
 //Business Logic
 function facets (adaptability,affectiveDisposition,emotionalExpression,emotionalPerception,emotionalRegulation,lowImpulsivity,peerRelations,selfEsteem,selfMotivation){
-    this.adaptability = adapt;
-    this.affectiveDisposition = affect;
-    this.emotionalExpression = emotionalE;
-    this.emotionalPerception= emotionalP;
-    this.emotionalRegulation = emotionalR;
+    this.adaptability = adaptability;
+    this.affectiveDisposition = affectiveDisposition;
+    this.emotionalExpression = emotionalExpression;
+    this.emotionalPerception = emotionalPerception;
+    this.emotionalRegulations = emotionalRegulation;
     this.lowImpulsivity = lowImpulsivity;
     this.peerRelations = peerRelations;
     this.selfEsteem = selfEsteem;
@@ -16,6 +16,16 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
    };
 
 
+   function store (){
+     this.totals = [];
+   }
+
+   store.prototype.addtotals = function (total){
+     this.totals.push(total);
+   }
+
+   var ei = new store ();
+   
 
    // user Logic
    $(document).ready(function(){
@@ -29,6 +39,7 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
    var totalPeerRelationsscore = 0;
    var totalSelfEsteemscore = 0;
    var totalSelfMotivationscore=0;
+
     $("#questionnaire1").click(function(e){
       e.preventDefault();
      var adaptabilityScore ;
@@ -80,6 +91,7 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
       selfmotivationScore = $("input:radio[name=selfmotivation]:checked").val();
 
       localStorage.setItem ('adapt',adaptabilityScore );
+      localStorage.setItem ('dispositon',affectivedispositionScore );
       localStorage.setItem ('expression',emotionalexpressionScore);
       localStorage.setItem ('perception',emotionalperceptionScore);
       localStorage.setItem ('impulsivity',lowimpulsivityScore);
@@ -199,11 +211,19 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
     totalSelfMotivationscore = parseInt(localStorage.getItem('motivation')) + parseInt(localStorage.getItem('motivation2')) + parseInt(localStorage.getItem('motivation3')) + parseInt(localStorage.getItem('motivation4'));
     totalEmotionalRscore = parseInt(localStorage.getItem('regulation')) + parseInt(localStorage.getItem('regulation2')) + parseInt(localStorage.getItem('regulation3')) + parseInt(localStorage.getItem('regulation4'));
 
-    var newTotal = new totalEi(totalAdaptabililtyScore,totalAffectiveDscore,totalEmotionalEscore,totalEmotionalPscore,totalEmotionalRscore,
-       totalLowImpulsivityscore,totalPeerRelationsscore,totalSelfEsteemscore,totalSelfMotivationscore);
-     newTotal.totalEi();
+    // var newTotal = new facets (totalAdaptabililtyScore,totalAffectiveDscore,totalEmotionalEscore,totalEmotionalPscore,totalEmotionalRscore,
+    //     totalLowImpulsivityscore,totalPeerRelationsscore,totalSelfEsteemscore,totalSelfMotivationscore);
+      // ei.addtotals(newTotal);
+  //  var adapt = ei.totals[0].adaptability;
+  //  var affective = ei.totals[0].affectiveDisposition;
+  //  var expression = ei.totals[0].emotionalExpression;
+  //  var perception = ei.totals[0].emotionalPerception;
+  //  var regulation = ei.totals[0].emotionalRegulations;
+  //  var impulsivity = ei.totals[0].lowImpulsivity;
+  //  var peer = ei.totals[0].peerRelations;
+  //  var esteem = ei.totals[0].selfEsteem ;
+  //  var motivate = ei.totals[0].selfMotivation;
 
-
-    console.log (totalAdaptabililtyScore);
+  console.log(totalAdaptabililtyScore);
 
 });
