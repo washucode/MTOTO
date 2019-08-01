@@ -12,7 +12,6 @@
   overflow-x: hidden;
   overflow-y: hidden;
 
-
 }
 .mtoto-header{
   padding-top:5%;
@@ -131,6 +130,7 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+
 }
 
 @-webkit-keyframes Gradient {
@@ -285,10 +285,18 @@ form.questionnaire1 p {
 
 /*This will be the styling for result page*/
 .results {
-  background-image: url(../images/block.jpg);
+  background-image: url(../images/school.jpg);
   background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   height: auto;
+  width: 100%;
+}
+.overlay-result{
+  background-color:black;
+  opacity: 0.9;
+  width: 100%;
+
 }
 
 .jumbotron {
@@ -319,7 +327,7 @@ h4#resultpage {
 #resulttext {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: Quicksand;
+  font-family: 'Gochi Hand', cursive;
   font-size: medium;
   text-align: justify;
 }
@@ -331,7 +339,28 @@ h4#resultpage {
 h2#resultheading {
   margin: 1%;
 }
+.overlay-result h4{
+  font-family: 'Gochi Hand', cursive;
+  padding-top: 5%;
+
+}
 
 .container.text-center.total {
  background-color: rgba(0, 0, 0, 0.59);
+}
+#result-header, .M{
+   font-size:80px;
+   color:#e84393;
+   font-family: 'Gochi Hand', cursive;
+}
+#result-header, .t1,.o1{
+  color:white;
+  font-family: 'Gochi Hand', cursive;
+  font-size:80px;
+}
+#result-header, .t2,.o2{
+  color:#e84393;
+  font-family: 'Gochi Hand', cursive;
+    font-size:80px;
+
 }
