@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* index style */
+.index{
+  background-image: url(../images/pencil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+
+}
+.mtoto-header{
+  padding-top:5%;
+  font-size:150px;
+  color:#e84393;
+  font-family: 'Gochi Hand', cursive;
+  background-color: black;
+  opacity: 0.9;
+  height:100vh;
+  width:100%;
+}
+.t1,.o1{
+  color:white;
+  font-family: 'Gochi Hand', cursive;
+}
+.t2,.o2{
+  color:#e84393;
+  font-family: 'Gochi Hand', cursive;
+}
+
+   @keyframes dropfromabove {
+  0% {
+    left: 0px; top:-300px;
+    font-size: 200px;
+
+
+  }
+
+
+
+
+100%{
+  left: 0; top: 0;
+}
+
+
+}
+.dot {
+  animation-name: dropfromabove;
+  animation: dropfromabove 4s;
+  animation-direction: alternate;
+  position: relative;
+  left: 0;
+  top: 0;
+  color: white;
+
+}
+
+.tagline {
+ font-size:20px;
+ text-transform: capitalize;
+ color:white;
+ font-family: 'Gochi Hand', cursive;
+ word-spacing:5px;
+ margin-top:6%;
+}
+
+.infotabs{
+  padding-top: 2%;
+}
+
+.content1 h3,.content2 h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.content1{
+  background-color: white;
+  height: 100%;
+  border-radius: 3%;
+  opacity:0.9;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+.content1:hover{
+  zoom:1.2;
+}
+
+.content2:hover{
+  zoom:1.2
+}
+.content2{
+    background-color: white;
+    height: 100%;
+    border-radius: 3%;
+    opacity: 0.9;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+      color: black;
+}
+
+.mtoto{
+  font-family: 'Gochi Hand', cursive;
+}
+/* End of mtoto header */
+
+/* Form styling linear gradient background for all forms*/
+.formbody{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+/* .questionnaire1{
+  padding-top:12%
+} */
+#form1, #form2, #form3, #form4 {
+	width: 100vw;
+	height:100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1, h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+/*This will change the font of the text in the form*/
+form.questionnaire1 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: white;
+}
+
+/* This is a notion for adding new things to test the branch */
+
+.center-form h2{
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+
+.questionnaire1, .questionaire2, .questionaire3, .questionaire4{
+  line-height:36px;
+  /* margin-bottom:5%; */
+}
+.questionnaire1, .questionaire2, .questionaire3, .questionaire4 label{
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color:white;
+}
+.questionnaire1,.questionaire2, .questionaire3, .questionaire4 p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  /* font-stretch:extra-expanded;
+  word-spacing:6px;
+  letter-spacing:2px; */
+}
+.questionaire-header{
+  text-align: center;
+  font-family: 'Gochi Hand', cursive;
+  word-spacing:30px;
+  margin-top:3%;
+
+}
+#next-btn a{
+  font-size:70px;
+  color:#fff;
+  border-bottom:4px solid;
+}
+
+   @keyframes nextpage{
+  0% {
+    left:0px; top:0px;
+
+}
+
+
+
+100%{
+  left:0px; top: -20px;
+}
+
+
+}
+
+#next-btn {
+  animation-name:nextpage;
+  font-weight:lighter;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration:2s;
+  position: relative;
+  left: 0;
+  top: 0;
+  /* padding-top:12%; */
+
+
+}
+.tag {
+  color:#e84393;
+}
+/* index_button */
+.index_button a {
+  width: 70px;
+  height: 70px;
+  color:#e84393;
+  margin-top:5%;
+
+  font-size:140px;
+  margin-left: 80%;
+  text-align: center;
+
+
+}
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+.index_button {
+  animation-name: bounceAlpha;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
