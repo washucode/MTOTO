@@ -186,6 +186,8 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
       localStorage.setItem ('esteem4',selfesteemScore4);
       localStorage.setItem ('motivation4',selfmotivationScore4);
       localStorage.setItem ('regulation4',emotionalregulationScore4);
+
+
     });
 
     //
@@ -204,27 +206,115 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
     //  newTotal.totalEi();
 
 
-    console.log (totalAdaptabililtyScore);
+      switch (true) {
+        case totalAdaptabililtyScore <= 10:
+          $("p#adaptabilityresult1").show();
+          break;
 
-    if (totalAdaptabililtyScore <= 10){
-        <h5> Below Average Adaptability</h5>
-        <p>These children need to learn to become more flexible so that they can adjust better to changes; </p>
-        <h6>Give fore-warnings and information before transition.</h6>
-        <p>This will help to make transitions smoother because he knows what will happen next and what behavior is expected.</p>
-        <h6>Introduce small changes a little at a time.<h6>
-        <p>small changes a little at a time can ease them into being more comfortable with new routines.</p>
-        <h6>Use the idea of watching the clock or having a timer.</h6>
-        <p>Allow these devices, rather than yourself, to determine when activities have to be changed.</p>
-        <p>This will cut down on power struggles and resistance.</p>
-        <p>Give your child time to get used to a new situation.<p>
-        <p>Understand how your own temperament, including your own adaptability, fits or does not fit with the children’s temperament and create strategies to help each other.</p>
-        <p>Prepare the child in case some of his fears are realized. </p>
-        <p>For example, if nobody talks to the child in the new neighborhood suggest that he strike up a conversation up at the bus stop. or knock on a neighbor’s door and introduce himself.</p>
-        <p>If the child is very shy or there are other obstacles, you should adjust your suggestions accordingly.</p>
-        <p>Encourage children to join activities. Balance that with avoiding putting any pressure on.</p>
+        case 10 < totalAdaptabililtyScore<= 20 :
+           $("p#adaptabilityresult2").show();
+             break;
+      }
+
+      switch(true){
+
+        case totalAffectiveDscore <= 10:
+            $("p#affectiveresult1").show();
+              break;
+
+        case 10 < totalAffectiveDscore<= 20 :
+          $("p#affectiveresult2").show();
+            break;
+          }
+
+        switch(true){
+
+         case totalEmotionalEscore <= 10:
+           $("p#resultxp1").show();
+             break;
+
+         case 10 < totalEmotionalEscore<= 20 :
+            $("p#resultxp2").show();
+              break;
+          }
+
+          switch(true){
+
+            case totalEmotionalPscore <= 10:
+             $("p#resultpercp1").show();
+               break;
+
+            case 10 < totalEmotionalPscore<= 20 :
+                $("p#resultpercp2").show();
+                  break;
+            }
+
+            switch(true){
+
+              case totalEmotionalRscore <= 10:
+                $("p#resultreg1").show();
+                  break;
+
+              case 10 < totalEmotionalRscore<= 20 :
+                 $("p#resultreg2").show();
+                   break;
+              }
+
+              switch(true){
+
+                case totalLowImpulsivityscore <= 10:
+                   $("p#resultimpuls1").show();
+                     break;
+
+                 case 10 < totalLowImpulsivityscore<= 20 :
+                    $("p#resultimpuls2").show();
+                    break;
+                }
+
+                switch(true){
+
+                  case totalPeerRelationsscore <= 10:
+                    $("p#resultpeer1").show();
+                      break;
+
+                  case 10 < totalPeerRelationsscore<= 20 :
+                     $("p#resultpeer2").show();
+                       break;
+                  }
+
+                  switch(true){
+
+                    case totalSelfEsteemscore <= 10:
+                     $("p#resultself1").show();
+                       break;
+
+                    case 10 < totalSelfEsteemscore<= 20 :
+                      $("p#resultself2").show();
+                        break;
+                    }
+
+                  switch(true){
+
+                    case totalSelfMotivationscore <= 10:
+                      $("p#resultmotivation1").show();
+                        break;
+
+                    case 10 < totalSelfMotivationscore<= 20 :
+                       $("p#resultmotivation2").show();
+                         break;
+
+                    }
 
 
-    }
+
+
+
+
+
+        //
+
+
+
 
 
 
