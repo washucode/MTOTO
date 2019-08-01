@@ -40,10 +40,16 @@
 
 
   }
-  100%{
+
+
+
+
+100%{
   left: 0; top: 0;
 }
-   }
+
+
+}
 .dot {
   animation-name: dropfromabove;
   animation: dropfromabove 4s;
@@ -56,12 +62,6 @@
 }
 
 .tagline {
-<<<<<<< HEAD
-  margin-top: -2%;
-  font-size: 0.15em;
-  text-transform: capitalize;
-  color:#0abde3;
-=======
  font-size:20px;
  text-transform: capitalize;
  color:white;
@@ -111,7 +111,6 @@
 
 .mtoto{
   font-family: 'Gochi Hand', cursive;
->>>>>>> 1c416c5b9459193bd57f046123f0d92cd163c8d9
 }
 /* End of mtoto header */
 
@@ -282,12 +281,4 @@ form.questionnaire1 p {
   animation-duration: 2s;
   animation-iteration-count:infinite;
   animation-timing-function:linear;
-<<<<<<< HEAD
-
 }
-.index_button a {
-  text-decoration: none;
-}
-=======
-}
->>>>>>> 1c416c5b9459193bd57f046123f0d92cd163c8d9
