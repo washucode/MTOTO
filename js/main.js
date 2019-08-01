@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 //Business Logic
 
@@ -77,4 +75,3 @@ $(document).ready(function(){
 
   })
 })
->>>>>>> 1c416c5b9459193bd57f046123f0d92cd163c8d9
