@@ -199,11 +199,33 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
     totalSelfMotivationscore = parseInt(localStorage.getItem('motivation')) + parseInt(localStorage.getItem('motivation2')) + parseInt(localStorage.getItem('motivation3')) + parseInt(localStorage.getItem('motivation4'));
     totalEmotionalRscore = parseInt(localStorage.getItem('regulation')) + parseInt(localStorage.getItem('regulation2')) + parseInt(localStorage.getItem('regulation3')) + parseInt(localStorage.getItem('regulation4'));
 
-    var newTotal = new totalEi(totalAdaptabililtyScore,totalAffectiveDscore,totalEmotionalEscore,totalEmotionalPscore,totalEmotionalRscore,
-       totalLowImpulsivityscore,totalPeerRelationsscore,totalSelfEsteemscore,totalSelfMotivationscore);
-     newTotal.totalEi();
+    // var newTotal = new totalEi(totalAdaptabililtyScore,totalAffectiveDscore,totalEmotionalEscore,totalEmotionalPscore,totalEmotionalRscore,
+    //    totalLowImpulsivityscore,totalPeerRelationsscore,totalSelfEsteemscore,totalSelfMotivationscore);
+    //  newTotal.totalEi();
 
 
     console.log (totalAdaptabililtyScore);
+
+    if (totalAdaptabililtyScore <= 10){
+        <h5> Below Average Adaptability</h5>
+        <p>These children need to learn to become more flexible so that they can adjust better to changes; </p>
+        <h6>Give fore-warnings and information before transition.</h6>
+        <p>This will help to make transitions smoother because he knows what will happen next and what behavior is expected.</p>
+        <h6>Introduce small changes a little at a time.<h6>
+        <p>small changes a little at a time can ease them into being more comfortable with new routines.</p>
+        <h6>Use the idea of watching the clock or having a timer.</h6>
+        <p>Allow these devices, rather than yourself, to determine when activities have to be changed.</p>
+        <p>This will cut down on power struggles and resistance.</p>
+        <p>Give your child time to get used to a new situation.<p>
+        <p>Understand how your own temperament, including your own adaptability, fits or does not fit with the children’s temperament and create strategies to help each other.</p>
+        <p>Prepare the child in case some of his fears are realized. </p>
+        <p>For example, if nobody talks to the child in the new neighborhood suggest that he strike up a conversation up at the bus stop. or knock on a neighbor’s door and introduce himself.</p>
+        <p>If the child is very shy or there are other obstacles, you should adjust your suggestions accordingly.</p>
+        <p>Encourage children to join activities. Balance that with avoiding putting any pressure on.</p>
+
+
+    }
+
+
 
 });
