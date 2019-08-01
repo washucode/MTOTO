@@ -304,18 +304,4 @@ function facets (adaptability,affectiveDisposition,emotionalExpression,emotional
                          break;
 
                     }
-
-
-
-
-
-
-
-        //
-
-
-
-
-
-
-});
+   })
