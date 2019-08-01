@@ -357,18 +357,6 @@ $(document).ready(function(){
 
                     }
 
+   })
 
-
-
-
-
-
-        //
-
-
-
-
-
-
-});
 
