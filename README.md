@@ -22,8 +22,8 @@ Mtoto is a web application that measures the emotional intelligence of children 
 
 To contribute:
  * Fork Repository.
- * On your terminal run the command git clone https://github.com/washucode/Project_Mtoto
- * Again on you terminal run the command cd Delani-Studio.
+ * On your terminal run the command git clone https://github.com/washucode/MTOTO    
+ * Again on you terminal run the command cd MTOTO.
  * atom . or code . depending on the text editor you use.
  * feel free to edit.
 
