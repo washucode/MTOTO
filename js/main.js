@@ -20,55 +20,6 @@ facets.prototype.totalEi = function () {
 
 };
 
-// user Logic
-
-$(document).ready(function(){
- var totalAdaptabililtyScore = 0 ;
-
- var totalAffectiveDscore = 0;
- var totalEmotionalEscore = 0;
- var totalEmotionalPscore = 0;
- var totalLowImpulsivityscore = 0;
- var totalPeerRelationsscore = 0;
- var totalSelfEsteemscore = 0;
- var totalSelfMotivationscore=0;
-
-
-  $(".questionnaire1").submit(function(e){
-    e.preventDefault();
-
-   var adaptabilityScore ;
-   var affectivedispositionScore ;
-   var emotionalexpressionScore ;
-   var emotionalperceptionScore;
-   var lowimpulsivityScore ;
-   var peerrelationScore;
-   var selfesteemScore;
-   var selfmotivationScore;
-
-
-   function getScores(){
-     var facetscore = [adaptabilityScore, affectivedispositionScore, emotionalexpressionScore , emotionalperceptionScore, lowimpulsivityScore, peerrelationScore, selfesteemScore,selfmotivationScore];
-
-     facetscore.forEach( y => {
-      var facetNames = ['adaptability','affectivedisposition','emotionalexpression','emotionalperception','emotionalregulation','lowimpulsivity','peerrelations','selfesteem','selfmotivation'];
-       facetNames.forEach(x =>{
-         for( var i = 0 ; i < document.getElementsByName(x).length; i++ ){
-           if (document.getElementsByName(x)[i].checked){
-             y += parseInt(document.getElementsByName(x)[i].value);
-
-           }
-         }
-
-       })
-
-     
-   facets.prototype.totalEi = function () {
-    this.adaptability+this.affectiveDisposition+this.emotionalExpression+this.emotionalPerception+this.emotionalRegulation+this.lowImpulsivity+this.peerRelations+this.selfEsteem+this.selfMotivation;
-   };
-
-
-
    // user Logic
    $(document).ready(function(){
 
@@ -93,34 +44,7 @@ $(document).ready(function(){
      var selfmotivationScore;
      var emotionalregulationScore;
 
-     // function getScores(){
-     //
-     //    var facetNames = ['adaptability','affectivedisposition','emotionalexpression','emotionalperception','emotionalregulation','lowimpulsivity','peerrelations','selfesteem','selfmotivation'];
-     //     facetNames.forEach(x =>{
-     //       for( var i = 0 ; i < document.getElementsByName(x).length; i++ ){
-     //         if (document.getElementsByName(x)[i].checked){
-     //           switch(x){
-     //             case 'adaptability':
-     //             adaptabilityScore = parseInt(document.getElementsByName(x)[i].value);
-     //             localStorage.setItem ('adapt',adaptabilityScore );
-     //             case 'affectivedisposition':
-     //             affectivedispositionScore = parseInt(document.getElementsByName(x)[i].value);
-     //             localStorage.setItem ('disposition',affectivedispositionScore);
-     //             case 'emotionalexpression':
-     //            emotionalexpressionScore = parseInt(document.getElementsByName(x)[i].value);
-     //             localStorage.setItem ('disposition',emotionalexpressionScore);
-     //
-     //
-     //
-     //           }
-     //
-     //
-     //
-     //     })
-     //   })
-     // }
-     // getScores();
-     // console.log(adaptabilityScore);
+
       adaptabilityScore = $("input:radio[name=adaptability]:checked").val();
       affectivedispositionScore = $("input:radio[name=affectivedisposition]:checked").val();
       emotionalexpressionScore  = $("input:radio[name=emotionalexpression]:checked").val();
@@ -357,6 +281,7 @@ $(document).ready(function(){
 
                     }
 
-   })
 
 
+
+})
