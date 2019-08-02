@@ -12,7 +12,7 @@
 * Irene Mercy
 * Hulian John
 
-## LINK :
+## LINK :https://washucode.github.io/MTOTO/
 
     
 ## PURPOSE:
@@ -28,12 +28,23 @@ To contribute:
  * feel free to edit.
 
 ## BDD:
+As user I should be able to answer the questions using radiobutton and at the end of the form see my recommendations.
+
+Scenerio: Given that user is in the form page and they do not select any radio buttons for a question.
+Then the user will be alerted to select an answer.
+
+Scenerio: Given that user is in the form page and they select a radio buttons required per questiion
+Then the results as per their score is displayed.
+
+
 
 ## TECHNOLOGIES USED:
 * HTML& CSS
 * JAVASCRIPT
 * JQUERY
-* SASS
+## DEPENDANCIES:
+* LocalStorage
+* TEQUE-CF
 
 
 ## LICENSE
